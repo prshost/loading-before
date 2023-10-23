@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+  body{
+      font-family: tahoma;
+      direction: rtl;
+      background: #efefef;
+  }
+  
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+@media screen and (max-width:1400px){
+  .container {
+    max-width:1320px
+  }
+}  
+
+
+/*           start          */
+/*           start          */
+/*           start          */
+
+
+
+.content {
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.loading {
+  position: fixed;
+  background: #000000d9 url('../img/load.gif');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-size: 300px;
+}
+.loading.show {
+  display: none;
+}
